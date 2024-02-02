@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
