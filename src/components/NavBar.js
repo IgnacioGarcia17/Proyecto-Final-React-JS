@@ -1,14 +1,16 @@
 import React from 'react';
-import './NavBar.css';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return (
-        <nav className="navbar">
+        <nav>
+            <h1>Nombre del Sitio</h1>
             <ul>
-                <li>Inicio</li>
-                <li>Productos</li>
-                <li>Contacto</li>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/">Productos</a></li>
+                <li><a href="/">Contacto</a></li>
             </ul>
+            <CartWidget /> {}
         </nav>
     );
 }
