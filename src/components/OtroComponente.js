@@ -1,5 +1,4 @@
 import React from 'react';
-import './OtroComponente.css';
 
 const OtroComponente = () => {
     return (

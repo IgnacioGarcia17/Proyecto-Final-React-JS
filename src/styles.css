@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    /* Color de fondo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el catálogo de productos */
+.item-list-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-item {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Estilos para el componente OtroComponente */
+.otro-componente {
+    background-color: #1e90ff;
+    /* Color de fondo azul oscuro */
+    color: #fff;
+    /* Color de texto blanco */
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    /* Espacio superior */
+    position: fixed;
+    /* Fijar posición en la parte inferior */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.otro-componente h2 {
+    font-size: 24px;
+}
+
+.otro-componente img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart-widget {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.contacto-container {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    /* Agrega un margen lateral izquierdo */
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contacto-info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+.contacto-info-item {
+    margin-bottom: 10px;
+}
+
+.contacto-info-item:last-child {
+    margin-bottom: 0;
+}
